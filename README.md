@@ -25,5 +25,9 @@ dependencies:
   special_onboarding: ^1.0.0
 ```
 
+```
+flutter pub add special_onboarding
+```
+
 ### Environment
 This plugin supports Flutter 2.0 and higher.
