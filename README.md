@@ -196,7 +196,7 @@ isSwipeEnabled: Controls whether users can swipe between onboarding pages. Set t
 
 ## Changelog
 
-***1.0.0***
+***Version 1.0.0***
 ```
 the program was broadcast for the first time.
 ```
