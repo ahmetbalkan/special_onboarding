@@ -51,7 +51,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:special_onboarding/special_onboarding.dart';
 ```
 
-### Import the Package
+### Example Application
+
 ```
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -168,4 +169,27 @@ class OnboardingScreen extends StatelessWidget {
 
 ```
 
+## Customization
+### Text Styles
 
+titleTextStyle: Customize the appearance of the title on each onboarding page.
+descriptionTextStyle: Customize the appearance of the description on each onboarding page.
+
+### Buttons
+
+upperButtonColor and upperButtonIconColor: Customize the color of the upper (back) button.
+lowerButtonColor and lowerButtonIconColor: Customize the color of the lower (next/finish) button.
+
+### Progress Indicator
+
+indicatorBackgroundColor: Set the background color for the progress bar.
+The progress indicator automatically adjusts its color based on the gradient of the current page.
+
+### Callbacks
+
+onPageChanged(int index): Callback triggered whenever the page changes, allowing you to handle actions based on the page index.
+onLastPageReached(): Callback triggered when the user reaches the last onboarding page.
+
+### Swipe Navigation
+
+isSwipeEnabled: Controls whether users can swipe between onboarding pages. Set to true to enable swiping.
