@@ -193,3 +193,11 @@ onLastPageReached(): Callback triggered when the user reaches the last onboardin
 ### Swipe Navigation
 
 isSwipeEnabled: Controls whether users can swipe between onboarding pages. Set to true to enable swiping.
+
+##Changelog
+
+```
+***1.0.0***
+the program was broadcast for the first time.
+```
+
