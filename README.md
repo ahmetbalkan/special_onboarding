@@ -10,11 +10,19 @@ This module provides an onboarding flow for Flutter applications with customizab
 - **Swipe Support**: Control whether users can swipe between pages or not.
 - **Easy Importing with Import Barrel**: Simplifies import statements using a barrel file for better project management.
 
-## Usage
+## Installation
 
-### Step 1: Create Onboarding Pages
+To use this package, add `special_onboarding` as a dependency in your `pubspec.yaml` file.
 
-Define your onboarding pages using the OnboardingPageData model. This model requires an image, title, description, and gradient for each page.
+### pubspec.yaml
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+
+  special_onboarding: ^1.0.0
+
 
 dart
 OnboardingPageData(
