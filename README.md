@@ -13,7 +13,6 @@ This module provides an onboarding flow for Flutter applications with customizab
 ## Installation
 
 To use this package, add `special_onboarding` as a dependency in your `pubspec.yaml` file.
-
 ### pubspec.yaml
 
 ```yaml
@@ -22,6 +21,10 @@ dependencies:
     sdk: flutter
 
   special_onboarding: ^1.0.0
+
+
+
+
 
 
 dart
