@@ -24,7 +24,6 @@ To use this package, add `special_onboarding` as a dependency in your `pubspec.y
 dependencies:
   flutter:
     sdk: flutter
-
   special_onboarding: ^1.0.0
 ```
 Alternatively, you can install the package directly from the terminal using:
