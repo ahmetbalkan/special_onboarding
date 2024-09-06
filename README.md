@@ -24,8 +24,10 @@ dependencies:
 
   special_onboarding: ^1.0.0
 
+
 ### Environment
 This plugin supports Flutter 2.0 and higher.
 
-#Usage
+
+## Installation
 ### Basic Example
