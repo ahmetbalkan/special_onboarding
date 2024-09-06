@@ -36,33 +36,83 @@ Use the `SpecialOnboarding` widget in your project to display the onboarding flo
 
 ```dart
 SpecialOnboarding(
-  pages: [
-    OnboardingPageData(
-      imagePath: 'assets/images/onboarding1.png',
-      title: 'Welcome',
-      description: 'Discover the features.',
-      gradient: LinearGradient(
-        colors: [Colors.blue, Colors.green],
-        begin: Alignment.bottomCenter,
-        end: Alignment.topCenter,
+      pages: [
+        OnboardingPageData(
+          imagePath: 'assets/onboarding/onboarding_slide1.jpg',
+          title: 'Welcome to Our App',
+          description: 'Discover the new features and services.',
+          gradient: LinearGradient(
+            colors: [
+              Colors.blue.withOpacity(1),
+              Colors.blue.withOpacity(0.5),
+              Colors.transparent,
+            ],
+            begin: Alignment.bottomCenter,
+            end: Alignment.topCenter,
+          ),
+        ),
+        OnboardingPageData(
+          imagePath: 'assets/onboarding/onboarding_slide2.jpg',
+          title: 'Stay Connected',
+          description: 'Keep in touch with your friends and family.',
+          gradient: LinearGradient(
+            colors: [
+              Colors.green.withOpacity(1),
+              Colors.green.withOpacity(0.5),
+              Colors.transparent,
+            ],
+            begin: Alignment.bottomCenter,
+            end: Alignment.topCenter,
+          ),
+        ),
+        OnboardingPageData(
+          imagePath: 'assets/onboarding/onboarding_slide3.jpg',
+          title: 'Get Started Now',
+          description: 'Start using our app today.',
+          gradient: LinearGradient(
+            colors: [
+              Colors.orange.withOpacity(1),
+              Colors.orange.withOpacity(0.5),
+              Colors.transparent,
+            ],
+            begin: Alignment.bottomCenter,
+            end: Alignment.topCenter,
+          ),
+        ),
+      ],
+      titleTextStyle: const TextStyle(
+        fontSize: 24,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
       ),
-    ),
-    OnboardingPageData(
-      imagePath: 'assets/images/onboarding2.png',
-      title: 'Stay Connected',
-      description: 'Stay in touch with friends.',
-      gradient: LinearGradient(
-        colors: [Colors.purple, Colors.orange],
-        begin: Alignment.bottomCenter,
-        end: Alignment.topCenter,
+      descriptionTextStyle: const TextStyle(
+        fontSize: 16,
+        color: Colors.white,
       ),
-    ),
-  ],
-  logo: Image.asset('assets/logo.png'),
-  onLastPageReached: () {
-    // Handle the action when the last page is reached
-    print('Last page reached!');
-  },
-  isSwipeEnabled: true, // Enable swipe between pages
-);
+      logo: const Text(
+        'Logo',
+        style: TextStyle(
+          fontSize: 36,
+          fontWeight: FontWeight.bold,
+          color: Colors.blue,
+        ),
+      ),
+      backgroundColor: Colors.grey[300]!,
+      upperButtonColor: Colors.blue,
+      upperButtonIconColor: Colors.white,
+      lowerButtonColor: Colors.red,
+      lowerButtonIconColor: Colors.white,
+      indicatorBackgroundColor: Colors.grey,
+      onPageChanged: (index) {
+        if (kDebugMode) {
+          print('Page changed to: $index');
+        }
+      },
+      onLastPageReached: () {
+        if (kDebugMode) {
+          print('Last page reached!');
+        }
+      },
+      isSwipeEnabled: false,
+    );
 
