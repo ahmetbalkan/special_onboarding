@@ -2,7 +2,7 @@
 
 [![Pub Version](https://img.shields.io/pub/v/special_onboarding.svg)](https://pub.dev/packages/special_onboarding)
 
-This package helps you create a customized onboarding experience for your Flutter apps with ease. It includes features like gradient backgrounds, customizable progress indicators, swipe gestures, and more.
+Welcome to the Special Onboarding package for Flutter, designed to help you create a seamless and customizable onboarding experience in your apps. This package simplifies the process of building onboarding flows with fully customizable pages, images, text styles, and user interaction controls like page swiping and progress indicators.
 
 ## Features
 - Fully customizable onboarding pages (images, titles, descriptions).
@@ -11,7 +11,7 @@ This package helps you create a customized onboarding experience for your Flutte
 - Action buttons with customizable styles.
 - Easy to integrate with external configurations.
 
-## Installation
+### Installation
 
 To use this package, add `special_onboarding` as a dependency in your `pubspec.yaml` file.
 
@@ -23,11 +23,7 @@ dependencies:
     sdk: flutter
 
   special_onboarding: ^1.0.0
-
+```
 
 ### Environment
 This plugin supports Flutter 2.0 and higher.
-
-
-## Installation
-### Basic Example
