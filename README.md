@@ -26,3 +26,6 @@ dependencies:
 
 ### Environment
 This plugin supports Flutter 2.0 and higher.
+
+#Usage
+### Basic Example
