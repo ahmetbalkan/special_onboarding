@@ -1,7 +1,5 @@
 # Special Onboarding Module
 
-This onboarding widget was created by **Ahmet Balkan**.
-
 This module provides an onboarding flow for Flutter applications with customizable pages, logos, and swipe controls. The onboarding flow supports swiping between pages, and it is highly configurable. Additionally, we utilize an **import barrel** pattern to simplify imports and improve code structure.
 
 ## Features
