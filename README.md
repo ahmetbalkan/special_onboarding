@@ -1,10 +1,9 @@
 # special_onboarding
 
-<img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_1.gif" width=250> <img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_2.gif" width=250> <img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_3.gif" width=250> 
 
-<img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_4.gif" width=250> <img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_5.gif" width=250> <img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_6.gif" width=250> 
-
-<img loading="lazy" src="https://raw.githubusercontent.com/eyoeldefare/onboarding/main/images/example_7.gif" width=250>
+<img loading="lazy" src="https://ahmetbalkan.com.tr/image/1.png" width=250>
+<img loading="lazy" src="https://ahmetbalkan.com.tr/image/2.png" width=250>
+<img loading="lazy" src="https://ahmetbalkan.com.tr/image/3.png" width=250>
 
 [![Pub Version](https://img.shields.io/pub/v/special_onboarding.svg)](https://pub.dev/packages/special_onboarding)
 
